@@ -10,7 +10,7 @@ const Index = () => {
     <div className="min-h-screen bg-white font-open-sans">
       {/* Header */}
       <header className="bg-white shadow-sm sticky top-0 z-50">
-        <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+        <div className="container py-4 flex justify-between items-center mx-0 my-0 px-[1px]">
           <div className="flex items-center space-x-2">
             <Icon name="Home" className="text-[#FF6B35]" size={32} />
             <h1 className="text-2xl font-bold text-[#2C3E50] font-roboto">СтройМастер</h1>
