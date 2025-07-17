@@ -48,7 +48,7 @@ const Index = () => {
                 <Badge variant="secondary" className="px-4 py-2 text-sm">Срок от 21 дней</Badge>
                 <Badge variant="secondary" className="px-4 py-2 text-sm">Опыт 8 лет</Badge>
               </div>
-              <div className="flex gap-4">
+              <div className="flex gap-4 px-0">
                 <Button size="lg" className="bg-[#FF6B35] hover:bg-[#e55a2b] text-white px-8">
                   Получить расчет
                 </Button>
