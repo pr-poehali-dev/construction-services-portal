@@ -43,18 +43,10 @@ const Index = () => {
                 Косметический и капитальный ремонт, сантехнические и электромонтажные работы.
               </p>
               <div className="flex flex-wrap gap-4 mb-8">
-                <Badge variant="secondary" className="px-4 py-2 text-sm">
-                  <Icon name="CheckCircle" className="mr-2" size={16} />
-                  Гарантия 2 года
-                </Badge>
-                <Badge variant="secondary" className="px-4 py-2 text-sm">
-                  <Icon name="Clock" className="mr-2" size={16} />
-                  Срок от 7 дней
-                </Badge>
-                <Badge variant="secondary" className="px-4 py-2 text-sm">
-                  <Icon name="Users" className="mr-2" size={16} />
-                  Опыт 12 лет
-                </Badge>
+                <Badge variant="secondary" className="px-4 py-2 text-sm">Гарантия 1
+ года</Badge>
+                <Badge variant="secondary" className="px-4 py-2 text-sm">Срок от 21 дней</Badge>
+                <Badge variant="secondary" className="px-4 py-2 text-sm">Опыт 8 лет</Badge>
               </div>
               <div className="flex gap-4">
                 <Button size="lg" className="bg-[#FF6B35] hover:bg-[#e55a2b] text-white px-8">
